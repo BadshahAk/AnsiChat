@@ -38,8 +38,8 @@ async def is_admins(chat_id: int):
 
 
 EMOJIOS = [ 
-      "⚡",
-      "⚡",
+      "💚",
+      "💜",
 ]
       
 START = f"""
@@ -54,7 +54,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠..")
     await asyncio.sleep(0.1)    
-    await accha.edit("Thanks for Start Ansi♥️")
+    await accha.edit("Thanks for Start This bot😁")
        
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
