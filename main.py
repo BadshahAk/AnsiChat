@@ -14,7 +14,7 @@ from datetime import datetime
 API_ID = "14050586"
 API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = "mongodb+srv://asansi1294:HqlhPWInBpKfXnNB@cluster0.m5mqlkh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URL = "mongodb+srv://nobixd:nobixd09@cluster0.qsggmrk.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 BOT_NAME = os.environ.get("BOT_NAME")
